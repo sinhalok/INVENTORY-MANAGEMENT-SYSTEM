@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style media="screen">
+      body{
+        background-image: url("Images/ima.jpeg");
+      }
+      div.container{
+          color: red;
+        width:100%;
+      }
+      div.innerBox{
+        width:50%;
+        height:50%;
+        background-image: url(Images/bg.jpg);
+        border: 2px solid #87CEFA;
+        padding: 16px;
+        position:absolute;
+        margin:auto;
+        top:0px;
+        bottom:0px;
+        right:0px;
+        left:0px;
+        border-radius: 15px;
+        box-shadow: 5px 10px 15px #8888DD;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="innerBox">
+        <center>
+          <br><br><br><br><br>
+          <form class="" action="AddItemForm.php" method="post">
+            <input type="submit" name="additem" value="Add Item">
+          </form><br><br>
+          <form class="" action="UpdateItemForm.php" method="post">
+            <input type="submit" name="updateitem" value="Update Item">
+          </form><br><br>
+          <form class="" action="DeleteItemForm.php" method="post">
+            <input type="submit" name="deleteitem" value="Delete Item">
+          </form><br><br>
+          <form class="" action="SearchItemForm.php" method="post">
+            <input type="submit" name="searchitem" value="Search Item">
+          </form><br><br>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
