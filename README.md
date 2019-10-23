@@ -6,4 +6,4 @@ ii) To modify the item stock.
 iii) To delete the item stored.
 iv) To view or search on item name.
 
-Place all the files inside the xampp server(in htdocs) and run as localhost/inventory 
+Place all the files inside the xampp folder (in htdocs) and run as localhost/inventory 
